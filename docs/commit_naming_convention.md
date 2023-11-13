@@ -1,24 +1,28 @@
 # Commit Naming Convention
 
+## Pattern
+
+`git commit -m category: now does something; does some other things`
+
 ## Principle
 
- 1. Use Separators “:” to separate `category_words:commit_purpose`
- 2. Use lowercase letters only
- 3. Do only one thing in one commit
+ 1. Do only one thing in one commit
+ 2. Use colon ":" to separate category from purpose
+ 3. Purpose should be stated as a *new capability* rather than what you did
+ 4. Use lowercase letters only
 
 ## Category
 
-- feat: is for adding a new feature
-- fix: is for fixing a bug
-- refactor: is for changing code for performance or convenience purpose (e.g. readability)
-- chore: is for everything else (writing documentation, formatting, adding tests, cleaning useless code etc.)
+- feat: adding a new feature
+- fix: fixing a bug
+- refactor: changing code without changing its behavior (tests remain same)
+- docs: fix documentation or metadata (e.g., bump version numbers)
+- tests: write necessary tests (e.g., to catch an issue)
+- chore: everything else (formatting, cleaning useless code etc.)
 
-## Example
+## Examples
 
-`git commit -m <category: do something; do some other things>`
-Ex :
-
-- `feat: add new survey chart`
+- `feat: new survey chart`
+- `fix: can now generate survey from spreadsheet`
+- `refactor: survey chart uses new data structure`
 - `chore: upgrade to python 3.8`
-- `fix: unable to generate survey`
-- `refactor: change survey chart to use new data structure`
