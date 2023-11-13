@@ -25,6 +25,8 @@ Use pull requests to start any major work on an issue, feature, fix, etc. Start 
 
 Example scopes: `backend`, `frontend`, `fullend`, `database`, `app`, `api`, `worker`
 
+*You do not have to mention a scope if the project only has a single scope.*
+
 ## Examples
 
 - `feat(app): add new survey chart`
