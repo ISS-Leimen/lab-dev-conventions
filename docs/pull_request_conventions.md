@@ -1,10 +1,24 @@
-# Pull Request Naming Convention
-
-Use pull requests to start any major work on an issue, feature, fix, etc. Start a pull request *immediately after your first minor commit* so that others can comment on it and track your progress. *Do not wait* for the full work to be over to open a PR.
+# Pull Request (PR) Conventions
 
 ## Pattern
 
 `<category(scope): pull request purpose>`
+
+## Flow
+
+### Starting a PR
+
+Use pull requests to start any major work on an issue, feature, fix, etc. Start a pull request *immediately after your first minor commit* so that others can comment on it and track your progress. *Do not wait* for the full work to be over to open a PR.
+
+### As you are working
+
+Keep updating the PR description *plan* (see Description below) as you make each commit.
+
+### Finishing a PR
+
+Write a high-level set of changes (see Description section below) for reviewers.
+
+Assign a reviewer in your PR to request a code review. Always get feedback before merging the PR.
 
 ## Principle of Title
 
@@ -51,7 +65,7 @@ Plan:
 
 Below your plan, you can also summarize things you have changed
 
-```
+```text
 Code changes:
   - List each item separately
   - Write what changed
