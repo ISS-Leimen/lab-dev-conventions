@@ -2,7 +2,7 @@
 
 ## About This Repo
 
-This repo documents our lab's code management conventions. Please follow these conventions to code and work with others. Feel free to submit suggestions as issues or PRs.
+This repo documents our lab's code management conventions. Please follow these conventions to code and work with others.
 
 ## Conventions Directory
 
@@ -11,3 +11,15 @@ This repo documents our lab's code management conventions. Please follow these c
 3. [Pull Request Naming Convention](docs/pull_request_conventions.md)
 4. [Code Review Practices](docs/code_review_practices.md)
 5. [Git Workflow & Management](docs/git_workflow_and_management.md)
+
+## Suggestions and Editing
+
+Feel free to submit suggestions as issues or PRs.
+
+- Images
+  - Figures should always be in `.draw.svg` format.
+  - Figures require using draw.io or (preferred) the "Draw.io integration" for VSCode. 
+
+Please see if your suggestion is in the todo list, or consider adding it to that list if you don't have an implementation yet.
+
+[Todo List](todo.md)
