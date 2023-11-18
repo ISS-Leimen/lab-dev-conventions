@@ -1,13 +1,15 @@
 # Branch Naming Convention
 
-## Pattern
+Also see Git Workflow and Management conventions of when and why to branch.
+
+## Naming Pattern
 
 `<author>/<category>-<branch_purpose>`
 
 ## Principle
 
- 1. Branch Name Start Name with Category/Special Words
- 2. Use Separators “/” to separate `branch_author/branch_name`
+ 1. Branch Name Start Name with Category
+ 2. Use slash (/) to separate `branch_author/branch_name`
  3. Include Author Name in front of the branch
  4. Use lowercase letters only
 
@@ -23,5 +25,8 @@
 ## Examples
 
 - taylor/hotfix-unable-to-generate-survey
-- jerry/feat-add-new-survey-chart
+- soumya/bugfix-creating-survey-crashes
+- jerry/feature-add-new-survey-chart
+- soumya/docs-installation
 - tiffany/test-google-oauth-authenticate
+- francis/wip-new-complexity-algorithm
