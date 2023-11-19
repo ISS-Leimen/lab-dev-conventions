@@ -23,7 +23,7 @@ Assign a reviewer in your PR to request a code review. Always get feedback befor
 ## Principle of Title
 
  1. Put category words in front of the title
- 2. Use parentheses "()"" to separate category from scope
+ 2. Use parentheses "()" to separate category from scope
  3. Use colon ":" to separate category and scope from pull request purpose
  4. all lowercase letters
 

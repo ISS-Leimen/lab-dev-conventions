@@ -31,12 +31,11 @@ open a Pull Request immediately so others can track your progress (see what to w
 - Always add new tests to confirm the major behavior of your features (Use HAPPY/BAD/SAD tests).
 - Make sure to test and refactor your feature branches before merging into `develop`
 
-If Github tells you that your PR to merge back into `develop` has conflicts with `develop` (i.e., there have been new, conflicting commits on `develop` since after your branched out), please rebase your work on rebase before trying to merge back into it using a PR.
+**Regularly rebase your `feature` branch onto the tip of `develop`**, if `develop` is being updated by other pull requests. You will notice this when Github tells you that your PR to merge back into `develop` has conflicts with `develop` (i.e., there have been new, conflicting commits on `develop` since after your branched out).
 
 The rebase restructuring strategy looks like this:
 
 ![rebase strategy](../images/git-rebase.drawio.svg)
-
 
 And the corresponding code will be like:
 
@@ -47,14 +46,27 @@ git pull
 
 git switch feature
 git rebase develop
+```
 
-# Rebasing will be interrupted by conflicts
-# (fix all the conflicts and add them to staging)
-# ...
+**Rebasing will often be interrupted by conflicts** (this is normal)
+
+- Fix all the code conflicts by hand (choose 'current' or 'incoming' changes).
+- In case of conflicts in package version spec (e.g., Gemfile.lock) or auto-generated test outputs (e.g., code coverage report, new VCR fixtures), accept 'current' version instead of 'incoming' changes,and rerun relevant procedure (e.g., `bundle update` for packaging, or `rake spec` for tests) 
+- If things are hopelessly broken and you cannot resolve it, stop the rebase: \
+  `git rebase --abort`
+- Otherwise, add all resolved files (or just all files) to staging and continue the rebase process.
+
+```shell
 git add .
 
 # Continue the rebase
 git rebase --continue
+```
+
+If `feature` branch is already pushed on `origin` (remote), you will have to 'force push' it because the commit IDs of the `feature` breanch have changed.
+
+```shell
+git push --force origin feature
 ```
 
 ### Hotfix branches
