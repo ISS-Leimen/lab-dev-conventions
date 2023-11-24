@@ -2,7 +2,7 @@
 
 ## Pattern
 
-`<category(scope): pull request purpose>`
+`<category>(<scope>): <purpose>`
 
 ## Flow
 
@@ -50,7 +50,7 @@ Example scopes: `backend`, `frontend`, `fullend`, `database`, `app`, `api`, `wor
 
 ## Pull Request Description
 
-Use a meaningful description and provide a list of things you *plan* to work on in this PR using checkboxes that you can tick off as you complete them.
+Use a meaningful description and provide a checklist of things you *plan* to work on in this PR using checkboxes that you can tick off as you complete them.
 
 Example:
 
@@ -63,13 +63,16 @@ Plan:
 - [ ] write mapper for llm conversation
 ```
 
-Below your plan, you can also summarize things you have changed
+You can check off items as you complete them, and add new items as you realize you need them.
+
+Below your plan, you can also summarize things you have changed if they are not covered by the plan.
 
 ```text
 Code changes:
-  - List each item separately
-  - Write what changed
+  - List major changes separately
+  - Describe the intent of the change
 
 UI Changes:
-  - View that changed (offer screenshots)
+  - View that changed
+  - Offer screenshots wherever necessary
 ```
