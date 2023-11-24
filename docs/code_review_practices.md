@@ -23,5 +23,5 @@
 ## Keywords of Code Review
 
 - nit (not necessary to change)
-- Q(ask an question)
+- Q (ask an question)
 - task (to do something)
