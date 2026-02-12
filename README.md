@@ -4,13 +4,21 @@
 
 This repo documents our lab's code management conventions. Please follow these conventions to code and work with others.
 
+## Git Workflows
+
+This lab uses two git workflow strategies depending on the project type:
+
+- **[Semver Versioned Software](docs/git_workflow_semver.md)** — for R/Python packages and libraries with semantic versioning. Uses Gitflow with `main`, `develop`, feature, release, and hotfix branches.
+- **[End-User Services](docs/git_workflow_trunk.md)** — for web apps, mobile apps, and deployed services. Uses trunk-based development off `main` with feature and hotfix branches.
+
 ## Conventions Directory
 
-1. [Git Workflow & Management](docs/git_workflow_and_management.md)
-2. [Pull Request Naming Convention](docs/pull_request_conventions.md)
-3. [Branch Naming Convention](docs/branch_naming_convention.md)
-4. [Commit Naming Convention](docs/commit_conventions.md)
-5. [Code Review Practices](docs/code_review_practices.md)
+1. [Git Workflow: Semver Versioned Software](docs/git_workflow_semver.md)
+2. [Git Workflow: End-User Services](docs/git_workflow_trunk.md)
+3. [Pull Request Conventions](docs/pull_request_conventions.md)
+4. [Branch Naming Convention](docs/branch_naming_convention.md)
+5. [Commit Naming Convention](docs/commit_conventions.md)
+6. [Code Review Practices](docs/code_review_practices.md)
 
 ## Suggestions and Editing
 

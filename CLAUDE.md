@@ -34,11 +34,15 @@ When editing or adding documentation in this repo, follow the conventions it def
 
 ## Git Workflow
 
-- Uses Gitflow: `main` (deployable) -> `develop` (integration) -> feature branches
-- All new work branches from `develop`, never from `main` (except hotfix branches)
-- Rebase feature branches onto `develop` when `develop` has new commits (don't merge)
+This repo documents two workflow strategies (see `docs/`):
+
+- **Semver Versioned Software** (`docs/git_workflow_semver.md`): Gitflow with `main`, `develop`, feature, release, and hotfix branches. For R/Python packages and libraries.
+- **End-User Services** (`docs/git_workflow_trunk.md`): Trunk-based development off `main` with feature and hotfix branches. For web apps and deployed services.
+
+Common to both workflows:
+- Rebase feature branches onto the target branch when it has new commits (don't merge)
 - Force push feature branches after rebase: `git push --force origin <branch>`
-- Hotfix branches come from `main` and get merged back to both `main` and `develop`
+- Open PRs immediately after first commit
 
 ## Figures
 

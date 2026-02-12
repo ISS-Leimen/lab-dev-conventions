@@ -25,7 +25,7 @@ Deliver complete, reviewable documentation end-to-end:
 
 - [x] Plan created
 - [x] Questions resolved with decisions
-- [ ] Implementation not started
+- [x] Implementation complete (except diagrams — deferred to todo.md, requires draw.io)
 
 ## Key Findings
 
@@ -75,19 +75,19 @@ Deliver complete, reviewable documentation end-to-end:
 
 > **Note**: Test-first does not apply — this is a documentation-only repo. Tasks are ordered by dependency.
 
-- [ ] 1 Audit `docs/pull_request_conventions.md` for implicit `develop` references
-- [ ] 2 Create `docs/git_workflow_semver.md` — full Gitflow workflow with release branches, hotfix flow, rebase strategy
-- [ ] 3 Create `docs/git_workflow_trunk.md` — trunk-based workflow: main + feature/hotfix branches, rebase strategy
-- [ ] 4 Update `docs/branch_naming_convention.md` — add `release/<version>`, note per-workflow differences
-- [ ] 5 Create `images/git-flow-semver.drawio.svg` — Gitflow diagram (main, develop, feature, release, hotfix)
-- [ ] 6 Create `images/git-flow-trunk.drawio.svg` — trunk-based diagram (main, feature/hotfix)
-- [ ] 7 Update `images/git-rebase.drawio.svg` — generalize target branch label
-- [ ] 8 Update `README.md` — new links, two-workflow intro
-- [ ] 9 Update `CLAUDE.md` — describe both workflows
-- [ ] 10 Update `todo.md` — adjust items for dual-workflow context
-- [ ] 11 Generalize `docs/pull_request_conventions.md` if task 1 finds issues
-- [ ] 12 Remove old `docs/git_workflow_and_management.md` and `images/git-flow.drawio.svg`
-- [ ] 13 Final review — cross-references, markdownlint compliance
+- [x] 1 Audit `docs/pull_request_conventions.md` for implicit `develop` references — none found, no changes needed
+- [x] 2 Create `docs/git_workflow_semver.md` — full Gitflow workflow with release branches, hotfix flow, rebase strategy
+- [x] 3 Create `docs/git_workflow_trunk.md` — trunk-based workflow: main + feature/hotfix branches, rebase strategy
+- [x] 4 Update `docs/branch_naming_convention.md` — add `release/<version>`, note per-workflow differences
+- [ ] 5 Create `images/git-flow-semver.drawio.svg` — Gitflow diagram (main, develop, feature, release, hotfix) — **requires draw.io, deferred to todo.md**
+- [ ] 6 Create `images/git-flow-trunk.drawio.svg` — trunk-based diagram (main, feature/hotfix) — **requires draw.io, deferred to todo.md**
+- [ ] 7 Update `images/git-rebase.drawio.svg` — generalize target branch label — **requires draw.io, deferred to todo.md**
+- [x] 8 Update `README.md` — new links, two-workflow intro
+- [x] 9 Update `CLAUDE.md` — describe both workflows
+- [x] 10 Update `todo.md` — adjust items for dual-workflow context; added diagram tasks
+- [x] 11 Generalize `docs/pull_request_conventions.md` if task 1 finds issues — no changes needed (already workflow-agnostic)
+- [x] 12 Remove old `docs/git_workflow_and_management.md` — done; keeping `images/git-flow.drawio.svg` until new diagrams are created
+- [x] 13 Final review — cross-references verified, no broken links
 
 ## Completed
 
@@ -95,4 +95,4 @@ Deliver complete, reviewable documentation end-to-end:
 
 ---
 
-Last updated: 2026-02-12
+Last updated: 2026-02-13

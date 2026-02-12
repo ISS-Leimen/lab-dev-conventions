@@ -1,6 +1,6 @@
 # Branch Naming Convention
 
-Also see Git Workflow and Management conventions of when and why to branch.
+Also see our Git Workflow conventions ([Semver Workflow](git_workflow_semver.md) | [Trunk-Based Workflow](git_workflow_trunk.md)) for when and why to branch.
 
 ## Naming Pattern
 
@@ -22,6 +22,14 @@ Also see Git Workflow and Management conventions of when and why to branch.
 - test : for writing tests outside of an issue
 - wip : (rare) for a work in progress (only use for free experimentation)
 
+## Release Branches (Semver Workflow Only)
+
+Release branches use a different naming pattern since they are shared and not owned by a single author:
+
+`release/<version>` (e.g., `release/1.2.0`)
+
+Release branches are only used in the [Semver Workflow](git_workflow_semver.md). The [Trunk-Based Workflow](git_workflow_trunk.md) does not use release branches.
+
 ## Examples
 
 - taylor/hotfix-unable-to-generate-survey
@@ -30,3 +38,4 @@ Also see Git Workflow and Management conventions of when and why to branch.
 - soumya/docs-installation
 - tiffany/test-google-oauth-authenticate
 - francis/wip-new-complexity-algorithm
+- release/1.2.0 *(semver workflow only)*
