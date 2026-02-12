@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\ndocs: add branch plan for splitting workflow into semver and trunk-based strategies\nEOF\n\\)\")",
+      "Bash(git commit:*)"
+    ]
+  }
+}
