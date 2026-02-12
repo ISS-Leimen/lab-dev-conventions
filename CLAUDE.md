@@ -18,15 +18,18 @@ This is a documentation-only repository containing ISS-Leimen lab's code managem
 When editing or adding documentation in this repo, follow the conventions it defines:
 
 **Branches**: `<author>/<category>-<branch_purpose>` (all lowercase)
+
 - Categories: hotfix, bugfix, feature, docs, test, wip
 - Example: `soumya/docs-update-commit-conventions`
 
 **Commits**: `<category>: <does something>; <related things>` (all lowercase)
+
 - Categories: feature, fix, refactor, docs, tests, chore
 - State purpose as a new capability, not what you did
 - One thing per commit; use semicolon for two highly related things
 
 **PR Titles**: `<category>(<scope>): <purpose>` (all lowercase)
+
 - Categories: feat, fix, docs, chore (also style, refactor)
 - Scope is optional for single-scope projects
 
@@ -40,6 +43,7 @@ This repo documents two workflow strategies (see `docs/`):
 - **End-User Services** (`docs/git_workflow_trunk.md`): Trunk-based development off `main` with feature and hotfix branches. For web apps and deployed services.
 
 Common to both workflows:
+
 - Rebase feature branches onto the target branch when it has new commits (don't merge)
 - Force push feature branches after rebase: `git push --force origin <branch>`
 - Open PRs immediately after first commit
