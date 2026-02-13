@@ -8,9 +8,9 @@
 
  1. Do only one thing in one commit
  2. If two highly related things in a commit, use semi-colon (;) to separate
- 2. Use colon ":" to separate category from purpose
- 3. Purpose should be stated as a *new capability* rather than what you did
- 4. Use lowercase letters only
+ 3. Use colon ":" to separate category from purpose
+ 4. Purpose should be stated as a *new capability* rather than what you did
+ 5. Use lowercase letters only
 
 ## Category
 
