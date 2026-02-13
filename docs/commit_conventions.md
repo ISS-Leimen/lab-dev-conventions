@@ -25,9 +25,9 @@ Pick from:
 
 ## Examples
 
-- `feature: new survey chart`
-- `fix: can now generate survey from spreadsheet`
+- `feature: survey chart for spreadsheets`
+- `fix: link when generating survey`
 - `refactor: survey chart uses new data structure`
-- `docs: updated README for feature usage details`
-- `tests: added failing test for bug`
+- `docs: README includes feature usage details`
+- `tests: failing test for bug`
 - `chore: upgrade to python 3.8`
