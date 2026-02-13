@@ -25,7 +25,11 @@ Deliver complete, reviewable documentation end-to-end:
 
 - [x] Plan created
 - [x] Questions resolved with decisions
-- [x] Implementation complete (except diagrams — deferred to todo.md, requires draw.io)
+- [x] Core implementation complete (workflow docs, supporting docs, old files removed)
+- [x] All diagrams complete (semver, trunk-based, rebase generalized)
+- [x] Old `images/git-flow.drawio.svg` removed (replaced by new diagrams)
+- [x] Additional improvements: code review practices, commit conventions, skills, repo hygiene
+- [x] Branch ready for PR
 
 ## Key Findings
 
@@ -79,20 +83,33 @@ Deliver complete, reviewable documentation end-to-end:
 - [x] 2 Create `docs/git_workflow_semver.md` — full Gitflow workflow with release branches, hotfix flow, rebase strategy
 - [x] 3 Create `docs/git_workflow_trunk.md` — trunk-based workflow: main + feature/hotfix branches, rebase strategy
 - [x] 4 Update `docs/branching_conventions.md` — add `release/<version>`, note per-workflow differences
-- [ ] 5 Create `images/git-flow-semver.drawio.svg` — Gitflow diagram (main, develop, feature, release, hotfix) — **requires draw.io, deferred to todo.md**
-- [ ] 6 Create `images/git-flow-trunk.drawio.svg` — trunk-based diagram (main, feature/hotfix) — **requires draw.io, deferred to todo.md**
-- [ ] 7 Update `images/git-rebase.drawio.svg` — generalize target branch label — **requires draw.io, deferred to todo.md**
+- [x] 5 Create `images/git-flow-semver.drawio.svg` — Gitflow diagram (main, develop, feature, release, hotfix)
+- [x] 6 Create `images/git-flow-trunk.drawio.svg` — trunk-based diagram (main, feature/hotfix)
+- [x] 7 Update `images/git-rebase.drawio.svg` — generalize target branch label
 - [x] 8 Update `README.md` — new links, two-workflow intro
 - [x] 9 Update `CLAUDE.md` — describe both workflows
 - [x] 10 Update `todo.md` — adjust items for dual-workflow context; added diagram tasks
 - [x] 11 Generalize `docs/pull_request_conventions.md` if task 1 finds issues — no changes needed (already workflow-agnostic)
-- [x] 12 Remove old `docs/git_workflow_and_management.md` — done; keeping `images/git-flow.drawio.svg` until new diagrams are created
+- [x] 12 Remove old `docs/git_workflow_and_management.md` and `images/git-flow.drawio.svg`
 - [x] 13 Final review — cross-references verified, no broken links
+
+## Additional Work (beyond original scope)
+
+These changes were made during the branch but were not in the original plan:
+
+- Updated `docs/code_review_practices.md` — AI-assisted and human review passes, branch-review skill reference
+- Updated `docs/commit_conventions.md` — examples follow capability style
+- Created `.claude/skills/commit/SKILL.md` — commit message skill
+- Created `.claude/skills/pr-create/SKILL.md` — PR creation skill (drafts, updates, auto-detection)
+- Created `.claude/skills/branch-review/SKILL.md` — branch review skill
+- Created `.gitignore` — excludes local Claude files from version control
+- Created `.markdownlint.json` — markdownlint configuration
+- Renamed `docs/branch_naming_convention.md` → `docs/branching_conventions.md`
 
 ## Completed
 
-(none yet)
+All planned tasks complete. Branch ready for PR.
 
 ---
 
-Last updated: 2026-02-13
+Last updated: 2026-02-14
