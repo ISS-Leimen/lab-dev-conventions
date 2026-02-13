@@ -16,7 +16,7 @@ This lab uses two git workflow strategies depending on the project type:
 1. [Git Workflow: Semver Versioned Software](docs/git_workflow_semver.md)
 2. [Git Workflow: End-User Services](docs/git_workflow_trunk.md)
 3. [Pull Request Conventions](docs/pull_request_conventions.md)
-4. [Branch Naming Convention](docs/branch_naming_convention.md)
+4. [Branching Conventions](docs/branching_conventions.md)
 5. [Commit Naming Convention](docs/commit_conventions.md)
 6. [Code Review Practices](docs/code_review_practices.md)
 

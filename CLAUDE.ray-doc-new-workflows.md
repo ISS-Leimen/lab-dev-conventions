@@ -30,7 +30,7 @@ Deliver complete, reviewable documentation end-to-end:
 ## Key Findings
 
 - The repo currently documents a single Gitflow workflow in `docs/git_workflow_and_management.md`
-- Workflow-specific content is concentrated in `docs/git_workflow_and_management.md` and `docs/branch_naming_convention.md`; other docs (commits, PRs, code review) are workflow-agnostic
+- Workflow-specific content is concentrated in `docs/git_workflow_and_management.md` and `docs/branching_conventions.md`; other docs (commits, PRs, code review) are workflow-agnostic
 - Existing diagrams: `images/git-flow.drawio.svg` and `images/git-rebase.drawio.svg` — both assume Gitflow with `develop`
 - `docs/pull_request_conventions.md` may contain implicit references to `develop` as merge target — needs review
 
@@ -52,7 +52,7 @@ Deliver complete, reviewable documentation end-to-end:
 
 - Create `docs/git_workflow_semver.md` — standalone Gitflow workflow for versioned packages
 - Create `docs/git_workflow_trunk.md` — standalone trunk-based workflow for end-user services
-- Update `docs/branch_naming_convention.md` — add `release/<version>` pattern, clarify per-workflow differences
+- Update `docs/branching_conventions.md` — add `release/<version>` pattern, clarify per-workflow differences
 - Create `images/git-flow-semver.drawio.svg` — Gitflow diagram with release branches
 - Create `images/git-flow-trunk.drawio.svg` — trunk-based diagram (main + feature branches)
 - Update or generalize `images/git-rebase.drawio.svg` — label target branch generically
@@ -78,7 +78,7 @@ Deliver complete, reviewable documentation end-to-end:
 - [x] 1 Audit `docs/pull_request_conventions.md` for implicit `develop` references — none found, no changes needed
 - [x] 2 Create `docs/git_workflow_semver.md` — full Gitflow workflow with release branches, hotfix flow, rebase strategy
 - [x] 3 Create `docs/git_workflow_trunk.md` — trunk-based workflow: main + feature/hotfix branches, rebase strategy
-- [x] 4 Update `docs/branch_naming_convention.md` — add `release/<version>`, note per-workflow differences
+- [x] 4 Update `docs/branching_conventions.md` — add `release/<version>`, note per-workflow differences
 - [ ] 5 Create `images/git-flow-semver.drawio.svg` — Gitflow diagram (main, develop, feature, release, hotfix) — **requires draw.io, deferred to todo.md**
 - [ ] 6 Create `images/git-flow-trunk.drawio.svg` — trunk-based diagram (main, feature/hotfix) — **requires draw.io, deferred to todo.md**
 - [ ] 7 Update `images/git-rebase.drawio.svg` — generalize target branch label — **requires draw.io, deferred to todo.md**

@@ -13,7 +13,7 @@
 
 - ### Docs
 
-   1. Comments: Comments are clear and useful, and mostly explain why instead of what.
+   1. Comments: Comments are clear and useful, and mostly explain why instead of what (except for necessarily complex code).
    2. Documentation: Code is appropriately documented (generally in g3doc).
 
 - ### UX
